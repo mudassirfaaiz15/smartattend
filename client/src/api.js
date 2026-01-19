@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const api = axios.create({ baseURL: "http://localhost:5000/api" });
+const api = axios.create({ baseURL: "https://smartattend-backend-salw.onrender.com" });
 
 
 api.interceptors.request.use(config => {
