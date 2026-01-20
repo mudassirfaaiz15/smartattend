@@ -1,3 +1,4 @@
+import React from "react";
 import QRScanner from "../components/QRScanner";
 import api from "../api";
 
